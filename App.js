@@ -9,8 +9,6 @@ export default function App() {
   const [result, setResult] = useState('Guess a number between 1-100');
   const [total, setTotal] = useState(1);
 
-  // console.log(number);
-
   const checkGuess = () => {
 
     setTotal(total + 1);
